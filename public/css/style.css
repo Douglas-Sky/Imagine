@@ -1,0 +1,60 @@
+/*
+a {
+    color: black;
+    font-size: 60pt;
+    text-decoration: none;
+}
+*/
+#logo {
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    font-size: 40pt;
+    font-family: 'open sans', sans-serif;
+    letter-spacing: -5px;
+}
+
+#dot {
+    color: #be440b;
+}
+
+#navItem {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.navItem {
+    text-transform: none;
+    color: black;
+    font-weight: 800;
+}
+
+#hero {
+    display: flex;
+}
+
+#herotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: black;
+}
+
+#heroimage {
+    height: 40vh;
+}
+
+#heroimg {
+    height: 100;
+
+}
