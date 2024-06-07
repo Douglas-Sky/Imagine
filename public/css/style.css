@@ -30,13 +30,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: blue;
+    background-position: calc(20%);
 
 }
 
 .navItem {
+display: flex;
     text-transform: none;
     color: black;
     font-weight: 800;
+    text-underline-offset: none;
 }
 
 #hero {
