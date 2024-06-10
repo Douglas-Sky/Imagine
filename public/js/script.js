@@ -145,4 +145,52 @@ const date = new Date();
 date.getDay();
 
 
+// write a function that will ad a participant to our google class
+
+const participants = [];
+function addParticipant(email) {
+  
+  // check if an email was provided
+  if (email===undefined || email ===null) {
+    return 'No email provided';
+  }
+  // check if email is valid
+  if (!email.includes('@')) {
+    return 'Invalid email provided'
+  }
+  
+  // check if email is mest
+  if (!email.includes('@meltwater.com')) {
+    return 'Check your email'
+  }
+  // add email to participant
+  participants.push(email);
+  return 'Particpant added';
+}
+addParticipant('yawowusuagyemang');
+addParticipant('yawowusuagyemang@gmail.com');
+addParticipant('owusuagyemang@meltwater.com')
+addParticipant();
+participants;
+
+
+
+// Arrays in Js
+const users = [
+  {
+  userName: 'Yaw Adasa',
+  password: '1245', 
+  email: 'yawadasa@gmail.com'
+  },
+    {
+  userName: 'Owusu Agyemang',
+  password: '1234563',
+  email: 'owusuagyemang@gmail.com'
+      
+    }
+];
+users;
+
+
+
 
