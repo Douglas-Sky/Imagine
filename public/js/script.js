@@ -175,49 +175,47 @@ participants;
 
 
 
-// Arrays in Js
-const users = [
-  {
-  userName: 'Yaw Adasa',
-  password: '1245', 
-  email: 'yawadasa@gmail.com'
-  },
-    {
-  userName: 'Owusu Agyemang',
-  password: '1234563',
-  email: 'owusuagyemang@gmail.com'
+// // Arrays in Js
+// const users = [
+//   {
+//   userName: 'Yaw Adasa',
+//   password: '1245', 
+//   email: 'yawadasa@gmail.com'
+//   },
+//     {
+//   userName: 'Owusu Agyemang',
+//   password: '1234563',
+//   email: 'owusuagyemang@gmail.com'
       
-    }
-];
-users;
+//     }
+// ];
+// users;
 
 
 
 
-// // Write a function that will take a user with firstname, lastname and return
-// function fullName (user)  { 
+ // Write a function that will take a user with firstname, lastname and return
+function fullName (user)  { 
 
-// return {
-//   ...user,
-//   fullName: `${user.firstname} ${user.lastname}`
-// };
-// }
+return {
+  ...user,   fullName: `${user.firstname} ${user.lastname}`
+ };
+ }
+  const user = {
+     firstname: 'Douglas',
+       lastname: 'Owusu Agyemang'
+   }
 
-// const user = {
-//   firstname: 'Douglas',
-//     lastname: 'Owusu Agyemang'
-// }
-
-// fullName(user);
+   fullName(user);
 
 // // array map
-// const users = [
-// { firstname: 'Douglas', lastname: 'OWusu Agyemang'},
-// { firstname: 'Judith', lastname: 'Boamponsem'},
-// {firstname: 'Alex', lastname: 'Boamponsem'},
-// {firstname: 'Nana Osei', lastname: 'Boamponsem'}
-// ]
-// users.map (fullName)
+   const users = [
+   { firstname: 'Douglas', lastname: 'OWusu Agyemang'},
+   { firstname: 'Judith', lastname: 'Boamponsem'},
+   {firstname: 'Alex', lastname: 'Boamponsem'},
+   {firstname: 'Nana Osei', lastname: 'Boamponsem'}
+   ]
+   users.map (fullName)
 
 
 
