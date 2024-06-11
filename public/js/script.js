@@ -194,3 +194,50 @@ users;
 
 
 
+// // Write a function that will take a user with firstname, lastname and return
+// function fullName (user)  { 
+
+// return {
+//   ...user,
+//   fullName: `${user.firstname} ${user.lastname}`
+// };
+// }
+
+// const user = {
+//   firstname: 'Douglas',
+//     lastname: 'Owusu Agyemang'
+// }
+
+// fullName(user);
+
+// // array map
+// const users = [
+// { firstname: 'Douglas', lastname: 'OWusu Agyemang'},
+// { firstname: 'Judith', lastname: 'Boamponsem'},
+// {firstname: 'Alex', lastname: 'Boamponsem'},
+// {firstname: 'Nana Osei', lastname: 'Boamponsem'}
+// ]
+// users.map (fullName)
+
+
+
+// square of numbers
+
+function squared(number) {
+  return number**2;
+}
+squared(9)
+
+const numbers = [3,5,8,9];
+numbers.map(squared);
+
+
+// write a function which takes a number, if the number is even number, it returns true, but it takes 
+
+
+function isEven (number) { 
+ if (number % 2 === 0) return true
+ else return false
+}
+isEven(3);
+numbers.filter(isEven);
