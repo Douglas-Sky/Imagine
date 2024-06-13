@@ -35,9 +35,6 @@ person.child.Adom = 'Adasa';
 
 
 
-
-
-
 const date = new Date ();
 date.getDay();
 
@@ -268,3 +265,20 @@ if (email!==user.email) {
 
 
 passwordReset('owusuagyemangdouglas@gmail.com', 1234)
+
+
+for (let i = 0; i < students.length; i++);
+
+
+
+// classes in JavaScript
+class Laptop {
+  constructor (brand, color) {
+    this.brand = brand;
+    this.color = color;
+  }
+}
+const laptop1 = new Laptop ('Del', 'black');
+const laptop2 = new Laptop ('HP', 'silver');
+
+laptop2.brand
